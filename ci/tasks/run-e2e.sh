@@ -3,6 +3,7 @@
 set -e
 
 : ${BOSH_AWS_KMS_KEY_ARN:?}
+export AWS_PAGER=
 
 source director-state/director.env
 
